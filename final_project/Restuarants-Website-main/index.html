@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="Ie=edge"
+      <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Food Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- font awsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="cart" href="add_to_card"/>
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <a href="" class="logo"> <i class="fas fa-utensils"> </i>Resto. </a>
+      <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- search form -->
+
+    <form action="" id="search-form">
+      <input type="search" placeholder="Search here..." id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Spicy Noodles</h3>
+              <p>
+                Our Spicy Noodles are a mouthwatering fusion of tender noodles,
+                vibrant vegetables, and a fiery sauce, delivering a tantalizing
+                taste experience that ignites your senses
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/home1.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Fried Chicken</h3>
+              <p>
+                Our Fried Chicken is a crispy delight, expertly seasoned and
+                fried to perfection, offering a savory, golden-brown exterior
+                and juicy, tender meat inside, pure satisfaction in every bite
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/home2.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Hot Pizza</h3>
+              <p>
+                Our hot pizza features a delectable blend of freshly baked
+                crust, rich tomato sauce, gooey cheese, and your favorite
+                toppings, delivering pure pizza perfection every time
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/home3.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- dishes section start -->
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Our Dishes</h3>
+      <h1 class="heading">Popular Dishes</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="" class="fas fa-heart"></a>
+          <a href="" class="fas fa-eye"></a>
+          <img src="images/dish1.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>15.99LKR</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="" class="fas fa-heart"></a>
+          <a href="" class="fas fa-eye"></a>
+          <img src="images/dish2.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>13.99LKR</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="" class="fas fa-heart"></a>
+          <a href="" class="fas fa-eye"></a>
+          <img src="images/dish3.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>19.99LKR</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="" class="fas fa-heart"></a>
+          <a href="" class="fas fa-eye"></a>
+          <img src="images/dish4.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>12.99LKR</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="" class="fas fa-heart"></a>
+          <a href="" class="fas fa-eye"></a>
+          <img src="images/dish5.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>15.99LKR</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="" class="fas fa-heart"></a>
+          <a href="" class="fas fa-eye"></a>
+          <img src="images/dish6.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>18.99LKR</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+    <!-- dishes section end -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">Why Choose us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about.png" alt="" />
+        </div>
+        <div class="content">
+          <h3>Best food in the coutry</h3>
+          <p>
+            "Our talented chefs craft dishes with the highest quality
+            ingredients, ensuring exceptional flavor and freshness."
+          </p>
+          <p>
+            Come savor the best foods in town at our restaurant, where
+            exceptional cuisine and exceptional service meet to delight your
+            senses.
+          </p>
+
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>free delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>easy payments</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/ Service</span>
+            </div>
+          </div>
+          <a href="" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- menu section start -->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today's Speciality</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/menu1.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu2.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"> </i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu3.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"> </i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu4.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"> </i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu5.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"> </i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu6.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"> </i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu7.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"> </i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu8.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"> </i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu9.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"> </i>
+            </div>
+            <h3>delicious food</h3>
+            <p>
+              Our delicious food tantalizes taste buds with a symphony of
+              flavors, crafted from the finest ingredients and served with a
+              dash of culinary excellence
+            </p>
+            <a href="#" class="btn"> add to cart </a>
+            <span class="price">12.99LKR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- review section start -->
+
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what they say</h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic1.jpg" alt="" />
+              <div class="user-info">
+                <h3>Jenna Ortega</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              The best restaurant in America! Exceptional food quality,
+              attentive staff, and a diverse menu. Our go-to place for family
+              celebrations. Highly recommended!
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic2.jpg" alt="" />
+              <div class="user-info">
+                <h3>Alba Baptista</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Our recent visit exceeded expectations! From the appetizers to the
+              desserts, each dish was a masterpiece. The staff's knowledge of
+              wine pairings was commendable. A memorable evening!
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic3.jpg" alt="" />
+              <div class="user-info">
+                <h3>Sadie Sink</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Absolutely loved the cozy ambiance and flavorful dishes! A perfect
+              spot for a romantic dinner. The service was impeccable; we'll
+              definitely be back!
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic4.jpg" alt="" />
+              <div class="user-info">
+                <h3>Johnny Depp</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Exceptional dining experience! The flavors were exquisite, and the
+              presentation was top-notch. The staff was attentive, making it a
+              memorable night!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section end -->
+
+    <!-- order section start -->
+    <section class="order" id="order">
+      <h3 class="sub-heading">order now</h3>
+      <h1 class="heading">free & fast</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name" />
+          </div>
+          <div class="input">
+            <span>your number</span>
+            <input type="number" placeholder="enter your number" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>your order</span>
+            <input type="text" placeholder="enter food name" />
+          </div>
+          <div class="input">
+            <span>additional food</span>
+            <input type="text" placeholder="extra with food" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>how much</span>
+            <input type="number" placeholder="how many orders" />
+          </div>
+          <div class="input">
+            <span>date & time</span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>your address</span>
+            <textarea
+              name=""
+              placeholder="enter your address"
+              id=""
+              cols="30"
+              rows="10"
+            >
+            </textarea>
+          </div>
+          <div class="input">
+            <span>your message</span>
+            <textarea
+              name=""
+              placeholder="enter your message"
+              id=""
+              cols="30"
+              rows="10"
+            >
+            </textarea>
+          </div>
+        </div>
+        <input type="submit" value="order now" class="btn" />
+      </form>
+    </section>
+    <!-- order section end -->
+
+    <!-- footer section start -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>locations</h3>
+          <a href="#">Matara</a>
+          <a href="#">Galle</a>
+          <a href="#">Colombo</a>
+          <a href="#">Kurunegala</a>
+          <a href="#">Hambantota</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">dishes Lanka</a>
+          <a href="#">about</a>
+          <a href="#">menu</a>
+          <a href="#">review</a>
+          <a href="#">order</a>
+        </div>
+        <div class="box">
+          <h3>Contact info</h3>
+          <a href="#">+94 7########</a>
+          
+          <a href="#">resto@restaurant.com</a>
+          <a href="#">restolk@restaurant.com</a>
+          <a href="#">Resto,Galle Road,matara</a>
+        </div>
+        <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#">facebook</a>
+         
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+      <div class="credit">
+        copyright @ 2023 by <span>Yomal Dev</span>
+      </div>
+    </section>
+
+    <!-- footer section end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+   
+  </body>
+</html>
